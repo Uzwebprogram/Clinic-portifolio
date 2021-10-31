@@ -366,182 +366,6 @@ template {
   display: none;
 }
 
-@font-face {
-  font-family: 'Futura PT';
-  src: url("./../fonts/FuturaPT-Bold.woff2") format("woff2"), url("./../fonts/FuturaPT-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Book';
-  src: url("./../fonts/FuturaPT-Book.woff2") format("woff2"), url("./../fonts/FuturaPT-Book.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond';
-  src: url("./../fonts/FuturaPTCond-BoldObl.woff2") format("woff2"), url("./../fonts/FuturaPTCond-BoldObl.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("./../fonts/FuturaPT-BoldObl.woff2") format("woff2"), url("./../fonts/FuturaPT-BoldObl.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Book';
-  src: url("./../fonts/FuturaPT-BookObl.woff2") format("woff2"), url("./../fonts/FuturaPT-BookObl.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond';
-  src: url("./../fonts/FuturaPTCond-Bold.woff2") format("woff2"), url("./../fonts/FuturaPTCond-Bold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Demi';
-  src: url("FuturaPT-Demi.woff2") format("woff2"), url("FuturaPT-Demi.woff") format("woff");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond Book';
-  src: url("FuturaPTCond-Book.woff2") format("woff2"), url("FuturaPTCond-Book.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond';
-  src: url("FuturaPTCond-Medium.woff2") format("woff2"), url("FuturaPTCond-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond';
-  src: url("FuturaPTCond-MediumObl.woff2") format("woff2"), url("FuturaPTCond-MediumObl.woff") format("woff");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond Extra';
-  src: url("FuturaPTCond-ExtraBold.woff2") format("woff2"), url("FuturaPTCond-ExtraBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond Book';
-  src: url("FuturaPTCond-BookObl.woff2") format("woff2"), url("FuturaPTCond-BookObl.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Cond Extra';
-  src: url("FuturaPTCond-ExtraBoldObl.woff2") format("woff2"), url("FuturaPTCond-ExtraBoldObl.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Extra';
-  src: url("FuturaPT-ExtraBold.woff2") format("woff2"), url("FuturaPT-ExtraBold.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Demi';
-  src: url("FuturaPT-DemiObl.woff2") format("woff2"), url("FuturaPT-DemiObl.woff") format("woff");
-  font-weight: 600;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-Heavy.woff2") format("woff2"), url("FuturaPT-Heavy.woff") format("woff");
-  font-weight: 900;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT Extra';
-  src: url("FuturaPT-ExtraBoldObl.woff2") format("woff2"), url("FuturaPT-ExtraBoldObl.woff") format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-HeavyObl.woff2") format("woff2"), url("FuturaPT-HeavyObl.woff") format("woff");
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-Light.woff2") format("woff2"), url("FuturaPT-Light.woff") format("woff");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-LightObl.woff2") format("woff2"), url("FuturaPT-LightObl.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-Medium.woff2") format("woff2"), url("FuturaPT-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Futura PT';
-  src: url("FuturaPT-MediumObl.woff2") format("woff2"), url("FuturaPT-MediumObl.woff") format("woff");
-  font-weight: 500;
-  font-style: italic;
-  font-display: swap;
-}
-
 .header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -563,7 +387,6 @@ template {
   display: flex;
   color: #333333;
   width: 274px;
-  margin-left: 40px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -577,8 +400,8 @@ template {
   width: 14px;
   height: 13px;
   background-repeat: no-repeat;
+  margin-left: 30px;
   margin-top: 2px;
-  margin-left: 10px;
 }
 
 .list {
@@ -610,6 +433,14 @@ template {
   color: #333333;
 }
 
+.list__item-atirbut:hover {
+  color: #FFBD54;
+}
+
+.list__item-atirbut:active {
+  opacity: 0.6;
+}
+
 .list__item-atirbut::before {
   content: "";
   background-image: url(./../image/phone.svg);
@@ -634,6 +465,14 @@ template {
   font-size: 14px;
   line-height: 18px;
   color: #333333;
+}
+
+.list__item-atirbut1:active {
+  opacity: 0.6;
+}
+
+.list__item-atirbut1:hover {
+  color: #FFBD54;
 }
 
 .list__item-atirbut1::before {
@@ -727,8 +566,8 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  width: 100%;
+  height: 61px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -749,6 +588,7 @@ template {
 
 .nav__list-item {
   list-style-type: none;
+  margin-top: 20px;
 }
 
 .nav__list-item--atribut {
@@ -763,6 +603,19 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.nav__list-item--atribut:hover {
+  border-bottom: 3px solid #FFBD54;
+  padding-bottom: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+  opacity: 1;
+}
+
+.nav__list-item--atribut:active {
+  opacity: 0.5;
 }
 
 .nav__list-item--atribut::before {
@@ -793,6 +646,19 @@ template {
   display: flex;
 }
 
+.nav__list-item--atribut1:hover {
+  border-bottom: 3px solid #FFBD54;
+  padding-bottom: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+  opacity: 1;
+}
+
+.nav__list-item--atribut1:active {
+  opacity: 0.5;
+}
+
 .nav__list-item--atribut2 {
   position: relative;
   text-decoration: none;
@@ -805,6 +671,19 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.nav__list-item--atribut2:hover {
+  border-bottom: 3px solid #FFBD54;
+  padding-bottom: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+  opacity: 1;
+}
+
+.nav__list-item--atribut2:active {
+  opacity: 0.5;
 }
 
 .nav__list-item--atribut3 {
@@ -821,6 +700,19 @@ template {
   display: flex;
 }
 
+.nav__list-item--atribut3:hover {
+  border-bottom: 3px solid #FFBD54;
+  padding-bottom: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+  opacity: 1;
+}
+
+.nav__list-item--atribut3:active {
+  opacity: 0.5;
+}
+
 .nav__list-item--atribut4 {
   position: relative;
   text-decoration: none;
@@ -833,6 +725,19 @@ template {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.nav__list-item--atribut4:hover {
+  border-bottom: 3px solid #FFBD54;
+  padding-bottom: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+  opacity: 1;
+}
+
+.nav__list-item--atribut4:active {
+  opacity: 0.5;
 }
 
 .nav__list-item--atribut5 {
@@ -849,15 +754,40 @@ template {
   display: flex;
 }
 
+.nav__list-item--atribut5:hover {
+  border-bottom: 3px solid #FFBD54;
+  padding-bottom: 5px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: black;
+}
+
+.nav__list-item--atribut5:active {
+  opacity: 0.5;
+}
+
 .nav__list-image {
   position: absolute;
   left: 0;
   top: 26px;
 }
 
+.nav__list-image:hover {
+  opacity: 0.8;
+}
+
+.nav__list-image:active {
+  opacity: 0.6;
+}
+
 .nav__commit {
   position: relative;
-  left: 192px;
+  left: 182px;
+  margin-top: 20px;
+}
+
+.nav__commit:active {
+  opacity: 0.5;
 }
 
 .nav__commit-atribut {

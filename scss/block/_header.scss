@@ -11,8 +11,8 @@
         display: flex;
         color: #333333;
         width: 274px;
-        margin-left: 40px;
         justify-content: space-between;
+  
         &::before{
             content: "";
             background-image: url(./../image/house.svg);
@@ -21,8 +21,8 @@
             width: 14px;
             height: 13px;
             background-repeat: no-repeat;
+            margin-left: 30px;
             margin-top: 2px;
-            margin-left: 10px;
         }
     }
 }
@@ -43,7 +43,12 @@
             font-size: 14px;
             line-height: 18px;
             color: #333333;
-
+            &:hover{
+                color: #FFBD54;
+            }
+            &:active{
+                opacity: 0.6;
+            }
             &::before{
                 content: "";
                 background-image: url(./../image/phone.svg);
@@ -67,7 +72,12 @@
             font-size: 14px;
             line-height: 18px;
             color: #333333;
-
+            &:active{
+                opacity: 0.6;
+            }
+            &:hover{
+                color: #FFBD54;
+            }
             &::before{
                 content: "";
                 background-image: url(./../image/Ellipse.svg);
