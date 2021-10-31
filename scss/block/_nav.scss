@@ -1,0 +1,142 @@
+.nav{
+    display: flex;
+    margin-top: 12px;
+    background-color: #FFFFFF;
+    &-commet{
+        display: flex;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        justify-content: space-between;
+    }
+    &__list{
+        width: 692px;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 70px;
+        &-item{
+            list-style-type: none;
+            &--atribut{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;            
+                    &::before{
+
+                        position: absolute;
+                        right: 70px;
+                        content: "";
+                        background-image: url(./../../image/active.png);
+                        display: block;
+                        background-size: cover;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        transition: 0.5s  ;
+                    }
+
+            }
+            &--atribut1{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;            
+
+            }
+            &--atribut2{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;            
+
+            }
+            &--atribut3{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;            
+
+            }
+            &--atribut4{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;            
+
+            }
+            &--atribut5{
+                position: relative;
+                text-decoration: none;
+                font-family: "Futura PT" , sans-serif; 
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 21px;
+                color: #333333;
+                display: flex;            
+
+            }
+        }
+
+        &-image{
+            position: absolute;
+            left: 0;
+            top: 26px ;
+        }
+    }
+    &__commit{
+        position: relative;
+        left: 192px;
+        &-atribut{
+            text-decoration: none;
+            font-family: "Futura PT" , sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 21px;
+            text-align: right;
+            display: flex;
+            color: #333333;
+            &::before{
+                content: "";
+                background-image: url(./../image/pet.svg);
+                display: block;
+                background-size: cover;
+                width: 23px;
+                height: 20px;
+                background-repeat: no-repeat;
+                margin-top: 2px;
+                position: relative;
+                bottom: 2px;
+                right: 10px;
+            }
+        }
+
+    }
+}
