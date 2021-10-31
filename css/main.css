@@ -3,6 +3,8 @@ body {
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background: #E5E5E5;
+  font-family: "Futura PT" , sans-serif;
 }
 
 * ::after, *::before {
@@ -11,7 +13,7 @@ body {
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1245px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -362,5 +364,527 @@ template {
    */
 [hidden] {
   display: none;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("./../fonts/FuturaPT-Bold.woff2") format("woff2"), url("./../fonts/FuturaPT-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url("./../fonts/FuturaPT-Book.woff2") format("woff2"), url("./../fonts/FuturaPT-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("./../fonts/FuturaPTCond-BoldObl.woff2") format("woff2"), url("./../fonts/FuturaPTCond-BoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("./../fonts/FuturaPT-BoldObl.woff2") format("woff2"), url("./../fonts/FuturaPT-BoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Book';
+  src: url("./../fonts/FuturaPT-BookObl.woff2") format("woff2"), url("./../fonts/FuturaPT-BookObl.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("./../fonts/FuturaPTCond-Bold.woff2") format("woff2"), url("./../fonts/FuturaPTCond-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("FuturaPT-Demi.woff2") format("woff2"), url("FuturaPT-Demi.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url("FuturaPTCond-Book.woff2") format("woff2"), url("FuturaPTCond-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("FuturaPTCond-Medium.woff2") format("woff2"), url("FuturaPTCond-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond';
+  src: url("FuturaPTCond-MediumObl.woff2") format("woff2"), url("FuturaPTCond-MediumObl.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Extra';
+  src: url("FuturaPTCond-ExtraBold.woff2") format("woff2"), url("FuturaPTCond-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Book';
+  src: url("FuturaPTCond-BookObl.woff2") format("woff2"), url("FuturaPTCond-BookObl.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Cond Extra';
+  src: url("FuturaPTCond-ExtraBoldObl.woff2") format("woff2"), url("FuturaPTCond-ExtraBoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url("FuturaPT-ExtraBold.woff2") format("woff2"), url("FuturaPT-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Demi';
+  src: url("FuturaPT-DemiObl.woff2") format("woff2"), url("FuturaPT-DemiObl.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Heavy.woff2") format("woff2"), url("FuturaPT-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT Extra';
+  src: url("FuturaPT-ExtraBoldObl.woff2") format("woff2"), url("FuturaPT-ExtraBoldObl.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-HeavyObl.woff2") format("woff2"), url("FuturaPT-HeavyObl.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Light.woff2") format("woff2"), url("FuturaPT-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-LightObl.woff2") format("woff2"), url("FuturaPT-LightObl.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-Medium.woff2") format("woff2"), url("FuturaPT-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  src: url("FuturaPT-MediumObl.woff2") format("woff2"), url("FuturaPT-MediumObl.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 14px;
+}
+
+.header__address {
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333333;
+  width: 274px;
+  margin-left: 40px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__address::before {
+  content: "";
+  background-image: url(./../image/house.svg);
+  display: block;
+  background-size: cover;
+  width: 14px;
+  height: 13px;
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 395px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.list__item {
+  list-style-type: none;
+}
+
+.list__item-atirbut {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.list__item-atirbut::before {
+  content: "";
+  background-image: url(./../image/phone.svg);
+  display: block;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  position: relative;
+  right: 10px;
+}
+
+.list__item-atirbut1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.list__item-atirbut1::before {
+  content: "";
+  background-image: url(./../image/Ellipse.svg);
+  display: block;
+  background-size: cover;
+  width: 5px;
+  height: 5px;
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  margin-top: 6px;
+  position: relative;
+  right: 5px;
+}
+
+.list1 {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 284px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list1__item1 {
+  list-style-type: none;
+}
+
+.list1__item1-padding {
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  display: flex;
+}
+
+.list1__item1-padding::before {
+  content: "";
+  background-image: url(./../image/calander.svg);
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  right: 5px;
+  top: 1px;
+}
+
+.list1__item1-padding1 {
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #333333;
+  display: flex;
+}
+
+.list1__item1 .list1__item1-span {
+  font-weight: 600;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 12px;
+  background-color: #FFFFFF;
+}
+
+.nav-commet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav__list {
+  width: 692px;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 70px;
+}
+
+.nav__list-item {
+  list-style-type: none;
+}
+
+.nav__list-item--atribut {
+  position: relative;
+  text-decoration: none;
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__list-item--atribut::before {
+  position: absolute;
+  right: 70px;
+  content: "";
+  background-image: url(./../../image/active.png);
+  display: block;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav__list-item--atribut1 {
+  position: relative;
+  text-decoration: none;
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__list-item--atribut2 {
+  position: relative;
+  text-decoration: none;
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__list-item--atribut3 {
+  position: relative;
+  text-decoration: none;
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__list-item--atribut4 {
+  position: relative;
+  text-decoration: none;
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__list-item--atribut5 {
+  position: relative;
+  text-decoration: none;
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav__list-image {
+  position: absolute;
+  left: 0;
+  top: 26px;
+}
+
+.nav__commit {
+  position: relative;
+  left: 192px;
+}
+
+.nav__commit-atribut {
+  text-decoration: none;
+  font-family: "Futura PT" , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #333333;
+}
+
+.nav__commit-atribut::before {
+  content: "";
+  background-image: url(./../image/pet.svg);
+  display: block;
+  background-size: cover;
+  width: 23px;
+  height: 20px;
+  background-repeat: no-repeat;
+  margin-top: 2px;
+  position: relative;
+  bottom: 2px;
+  right: 10px;
 }
 /*# sourceMappingURL=main.css.map */
