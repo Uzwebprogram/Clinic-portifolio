@@ -15,7 +15,7 @@
   
         &::before{
             content: "";
-            background-image: url(./../image/house.svg);
+            background-image: url(./../img/house.svg);
             display: block;
             background-size: cover;
             width: 14px;
@@ -51,7 +51,7 @@
             }
             &::before{
                 content: "";
-                background-image: url(./../image/phone.svg);
+                background-image: url(./../img/phone.svg);
                 display: block;
                 background-size: cover;
                 width: 15px;
@@ -80,7 +80,7 @@
             }
             &::before{
                 content: "";
-                background-image: url(./../image/Ellipse.svg);
+                background-image: url(./../img/Ellipse.svg);
                 display: block;
                 background-size: cover;
                 width: 5px;
@@ -115,7 +115,7 @@
             display: flex;
             &::before{
                 content: "";
-                background-image: url(./../image/calander.svg);
+                background-image: url(./../img/calander.svg);
                 display: block;
                 background-size: cover;
                 background-repeat: no-repeat;

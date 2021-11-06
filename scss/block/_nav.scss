@@ -16,7 +16,7 @@
         padding: 0;
         display: flex;
         justify-content: space-between;
-        margin-right: 70px;
+        margin-left: 100px;
         &-item{
             list-style-type: none;
             margin-top: 20px;
@@ -30,10 +30,11 @@
                 line-height: 21px;
                 color: #333333;
                 display: flex;    
+
                 &:hover{
                 border-bottom: 3px solid #FFBD54;
                     padding-bottom: 5px;
-                    transition: 0.3s;
+                    transition: 0.5s;
                     color: black;
                     opacity: 1;
                 }   
@@ -46,7 +47,7 @@
                         position: absolute;
                         right: 70px;
                         content: "";
-                        background-image: url(./../../image/active.png);
+                        background-image: url(./../../img/active.png);
                         display: block;
                         background-size: cover;
                         width: 20px;
@@ -65,11 +66,11 @@
                 font-size: 16px;
                 line-height: 21px;
                 color: #333333;
-                display: flex;            
+                display: flex;      
                 &:hover{
                     border-bottom: 3px solid #FFBD54;
                         padding-bottom: 5px;
-                        transition: 0.3s;
+                        transition: 0.4s;
                         color: black;
                         opacity: 1;
                     }  
@@ -180,7 +181,6 @@
             opacity:0.5;
         }  
         position: relative;
-        left: 182px;
         margin-top: 20px;
         &-atribut{
             text-decoration: none;
@@ -192,9 +192,10 @@
             text-align: right;
             display: flex;
             color: #333333;
+
             &::before{
                 content: "";
-                background-image: url(./../image/pet.svg);
+                background-image: url(./../img/pet.svg);
                 display: block;
                 background-size: cover;
                 width: 23px;

@@ -1,0 +1,69 @@
+.hero{
+background-image: url(./../../img/img.png);
+display: block;
+background-size: cover;
+background-repeat: no-repeat;
+padding-bottom: 1px;
+width: 1532px;
+position: relative;
+right: 150px;
+background-position-y: -140px ;
+bottom: 20px;
+&__right{
+    max-width: 608px;
+    margin-bottom: 450px;
+    position: relative;
+    left: 750px;
+    top: 140px;
+    &-p{
+        max-width: 495px;
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;
+        color: #949494;
+    }
+    &-text{
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 70px;
+        line-height: 64px;
+        color: #333333;
+
+    }
+    &-span{
+        color: rgba(120, 192, 222, 1);
+    }
+    &-button{
+        font-family: "Futura PT" , sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #FFFFFF;
+        background: #333333;
+        border-radius: 3px;
+        margin: 0;
+        padding: 0;
+        padding-top: 16px;
+        padding-bottom: 17px;
+        padding-right: 48px;
+        padding-left: 47px;    
+        transition: 0.5s;
+        border: none;
+        cursor: pointer;
+        &:hover{
+            transition: 0.5s;
+            color: black;
+            background-color: rgba(255, 189, 84, 1);
+        }
+        &:active{
+            opacity: 0.6;
+        }
+    }
+}
+
+
+}

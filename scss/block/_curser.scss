@@ -1,0 +1,80 @@
+.curse{
+background-image: url(./../img/box.png);
+background-size: cover;
+background-repeat: no-repeat;
+width: 1550px;
+margin-top: 235px;
+margin-left: -170px;
+
+&__heading{
+    position: relative;
+    font-family: "Futura PT" , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    margin-left: 287px;
+    padding-top: 90px;
+    margin-bottom: 32px;
+    &::before{
+        content: "";
+        position: absolute;
+        background-image: url(./../../img/dog.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 513px;
+        height: 481px;
+        left: 420px;
+        top: -135px;
+    }
+}
+&__form{
+    margin-left: 287px;
+    display: flex;
+    padding-bottom: 88px;
+}
+&__input{
+
+    border: none;
+    font-family: "Futura PT" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #949494;
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding-top: 18px;
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 147px;
+
+}
+&__button{
+    border: none;
+    z-index: 1;
+    margin-left: 21px;
+    padding-left: 51px;
+    padding-right: 53px;
+    font-family: "Futura PT" , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background-color: #333333;
+    cursor: pointer;
+    &:hover{
+        background-color: #FFBD54;
+        color: #333333;
+    }
+    &:active{
+        opacity: 0.6;
+    }
+}
+}

@@ -1,3 +1,10 @@
 @import "generals/generals";
 @import "normalnaiz/normalnaiz";
 @import "block/block";
+
+.show{
+    transition: 0.5s;
+    display: flex !important;
+    width: 505px !important;
+    height: 503px !important;
+}

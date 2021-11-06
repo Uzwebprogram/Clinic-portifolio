@@ -1,0 +1,108 @@
+.box{
+    left: 1px;
+    right: 1px;
+    margin: 0 auto;
+    padding: 0;
+    border: 1px solid #FFFFFF;
+    background-color:#FFFFFF ;
+    display: flex;
+    width: 1220px;
+    justify-content: space-between;
+    border-radius: 0px 5px 5px 5px;
+    &__left{
+        padding-top: 41px;
+        padding-bottom: 41px;
+        padding-left: 35px;
+    }
+    &__right{
+        margin: 0;
+        padding: 0;
+        max-width: 492px ;
+        margin-top: 74px;
+        margin-right: 105px;
+        &-heading{
+        font-family: "Futura PT", sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        color: #333333;
+        margin-bottom: 18px;
+        }
+        &-padding{
+            font-family: "Futura PT" , sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 20px;
+            color: #949494;
+        }
+    } 
+}
+.buttons{
+    display: flex;
+
+}
+.button{
+    padding: 15px 0;
+    padding-left:  36px;
+    padding-right: 36px;
+    border: none;
+    background: #FFBD54;
+    margin-right: 21px;
+    border-radius: 3px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    &:active{
+        opacity: 0.5;
+    }
+    &:hover{
+        color: rgba(51, 51, 51, 1);
+    }
+    &::before{
+        content: "";
+        background-image: url(./../../img/point.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 21px;
+    }
+
+}
+.button1{
+    padding: 15px 0;
+    padding-left:  36px;
+    padding-right: 36px;
+    border: none;
+    background: rgba(51, 51, 51, 1);
+    border-radius: 3px;
+    font-family: "Futura PT";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    display: flex;
+    &:active{
+        opacity: 0.5;
+    }
+    &:hover{
+        color: #FFBD54;
+    }
+    &::before{
+        content: "";
+        background-image: url(./../../img/point.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 21px;
+    }
+
+}

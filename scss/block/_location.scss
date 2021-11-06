@@ -1,0 +1,88 @@
+.location{
+    // position: absolute;
+    width: 1540px;
+    margin-left: -160px;
+    background-color: #333333;
+    display: flex;
+    margin-top: 260px;
+    &__right{
+        margin-left: 165px;
+    }
+    &__right-heading{
+        position: relative;
+        margin-top: 62px;
+        font-family: "Futura PT" , sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 62px;
+        color: #FFFFFF;
+        display: flex;
+        &::before{
+            content: "";
+            background-image: url(./../../img/Group.png);
+            display: block;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 447px;
+            height: 447px;
+            position: absolute;
+            left:480px;
+            top: 70px;
+        }
+    }
+    &__right-padding{
+        font-family: "Futura PT";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+        max-width: 334px;
+    }
+
+}
+.form__input{
+    margin-bottom: 14px;
+    padding-top: 16px;
+    padding-bottom: 13px;
+    padding-right: 290px;
+    padding-left: 22px;
+    font-family: "Futura PT" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 21px;    
+    display: flex;
+    align-items: center;
+    color: #949494;
+           
+}
+.form__option-input{
+    padding-top: 12px;
+    padding-left: 22px;
+    padding-right: 290px;
+    padding-bottom: 127px;
+}
+.form-button{
+    border: none;
+    background: #FFBD54;
+    font-family: "Futura PT" , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-left: 49px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    margin-left: 265px;
+    margin-top: 30px;
+    &:hover{
+        color:#333333 ;
+    }
+    &:active{
+        opacity: 0.6;
+    }
+}

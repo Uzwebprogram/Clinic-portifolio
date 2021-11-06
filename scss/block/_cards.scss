@@ -1,0 +1,82 @@
+.cards{
+    margin-top: 216px;
+    &__text{
+        display: flex;
+        justify-content: center;
+            &-heading{
+            font-family: "Futura PT" , sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 20px;
+            display: flex;
+            align-items: center;
+            color: #333333;
+            margin-bottom: 80px;
+        }
+    }
+    &-data{
+        font-family: "Futura PT" , sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #949494;
+        margin-left: 180px;
+    }
+    &__atribut{
+        text-decoration: none;
+        font-family: "Futura PT" , sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        color: #333333;
+        display: flex;
+        cursor: pointer;
+        &::before{
+            content: "";
+            background-image: url(./../img/pet.svg);
+            display: block;
+            background-size: cover;
+            width: 23px;
+            height: 20px;
+            background-repeat: no-repeat;
+            margin-top: 2px;
+            position: relative;
+            bottom: 2px;
+            right: 10px;
+        }
+        &:hover{
+            color:  #FFBD54;
+        }
+        &:active{
+            opacity: 0.6;
+        }
+    }
+    &__heading{
+        max-width: 182px;
+        font-family: "Futura PT" , sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 25px;
+        color: #000000;
+
+    }
+    &__padding{
+        font-family: "Futura PT" , sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #949494;
+
+    }
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    border: rgb(241, 241, 241);
+    background-color: rgb(241, 241, 241);
+}

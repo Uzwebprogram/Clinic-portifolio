@@ -2,8 +2,9 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: #E5E5E5;
+    background: rgb(241, 241, 241);
     font-family: "Futura PT" , sans-serif; 
+    overflow-x: hidden;
 }
 * ::after, *::before{
             box-sizing: inherit;
@@ -12,6 +13,7 @@ body{
     max-width: 1245px;
     margin: 0 auto;
     padding: 0 10px;
+    // position: relative;
 }
 img{
   max-width: 100%;
